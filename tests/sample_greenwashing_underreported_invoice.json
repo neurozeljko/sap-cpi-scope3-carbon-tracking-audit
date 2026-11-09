@@ -1,0 +1,10 @@
+{
+  "supplierId": "SUPPLIER-SUSPICIOUS-01",
+  "invoiceNumber": "INV-FRAUD-001",
+  "industryBenchmarkTCO2e": 2.10,
+  "aiCoreExtractedEntities": {
+    "scope3EmissionsTCO2e": 50.0,
+    "totalMaterialWeightTonnes": 1000.0,
+    "recycledMaterialPercentage": 5.0
+  }
+}

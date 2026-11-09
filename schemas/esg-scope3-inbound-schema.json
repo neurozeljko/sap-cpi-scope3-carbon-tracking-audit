@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ESGScope3InboundPayloadSchema",
+  "type": "object",
+  "properties": {
+    "supplierId": { "type": "string" },
+    "invoiceNumber": { "type": "string" },
+    "industryBenchmarkTCO2e": { "type": "number" },
+    "aiCoreExtractedEntities": {
+      "type": "object",
+      "properties": {
+        "scope3EmissionsTCO2e": { "type": "number" },
+        "totalMaterialWeightTonnes": { "type": "number" },
+        "recycledMaterialPercentage": { "type": "number" }
+      },
+      "required": ["scope3EmissionsTCO2e", "totalMaterialWeightTonnes"]
+    }
+  },
+  "required": ["supplierId", "invoiceNumber", "aiCoreExtractedEntities"]
+}

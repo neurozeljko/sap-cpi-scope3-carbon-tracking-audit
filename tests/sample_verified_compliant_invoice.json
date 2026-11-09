@@ -1,0 +1,10 @@
+{
+  "supplierId": "SUPPLIER-NORDIC-STEEL-44",
+  "invoiceNumber": "INV-2026-EU-8841",
+  "industryBenchmarkTCO2e": 2.10,
+  "aiCoreExtractedEntities": {
+    "scope3EmissionsTCO2e": 1840.50,
+    "totalMaterialWeightTonnes": 1000.0,
+    "recycledMaterialPercentage": 42.50
+  }
+}
